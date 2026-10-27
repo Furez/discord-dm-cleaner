@@ -1,0 +1,23 @@
+{
+  "name": "discord-dm-cleaner",
+  "version": "1.0.0",
+  "description": "Supprime un par un vos propres messages dans un DM Discord, via l'interface réelle (CDP).",
+  "type": "module",
+  "bin": {
+    "discord-dm-cleaner": "src/delete-my-messages.mjs"
+  },
+  "scripts": {
+    "start": "node src/delete-my-messages.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "discord",
+    "vesktop",
+    "cdp",
+    "automation",
+    "cleanup"
+  ],
+  "license": "MIT"
+}
